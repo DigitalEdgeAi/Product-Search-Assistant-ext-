@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Resale Search",
+  "version": "1.0",
+  "description": "Detects product names on the current page and provides quick links to search resale/shopping sites.",
+  "permissions": [
+    "activeTab",  // Required to access the content of the current page
+    "scripting"   // Required to inject the content script (Manifest V3)
+  ],
+  "action": {
+    "default_popup": "popup.html", // The HTML file for the popup window
+    "default_icon": {       // Optional: Add icons later
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": { // Optional: Add icons later
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
